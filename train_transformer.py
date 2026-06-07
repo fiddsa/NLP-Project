@@ -48,10 +48,10 @@ def main(config={}):
         'num_dec_layers': 4,
         'ff_hidden_dim': 1536,
         'dropout': 0.1,
-        'max_len_en': 150,
+        'max_len_en': 800,
         'max_len_vi': 180,
         
-        'batch_size': 8,
+        'batch_size': 6,
         'num_epochs': 20,
         'learning_rate': 5e-5,
         'weight_decay': 1e-5,
